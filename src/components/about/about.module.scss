@@ -1,0 +1,97 @@
+@import "../../base";
+
+.a {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    @include respond(phone) {
+        flex-direction: column;
+    }
+
+    &__left {
+        flex: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        @include respond(phone) {
+            padding: 4rem 0;
+        }
+        &__card {
+            width: 60%;
+            height: 70vh;
+            border-radius: 3rem;
+            position: relative;
+            overflow: hidden;
+            @include respond(phone) {
+                width: 100%;
+                max-width: 40rem;
+                height: 40rem;
+            }
+
+            &__bg {
+                position: absolute;
+                top: 5rem;
+                left: 5rem;
+                background-color: $color-2;
+            }
+            &__img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &__right {
+        flex: 1;
+        @include respond(phone) {
+            padding: 5rem;
+        }
+        &__title {
+            font-weight: 400;
+            font-size: 3rem;
+        }
+
+        &__subtitle {
+            font-size: 2rem;
+            margin: 2rem 0;
+        }
+        &__desc {
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+
+        &__award {
+            display: flex;
+            padding: 2rem 0;
+            align-items: center;
+            justify-content: space-between;
+            img {
+                height: 8rem;
+                width: 8rem;
+                object-fit: cover;
+                border-radius: 1rem;
+            }
+
+            &__texts {
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                // height: 100%;
+                // justify-content: space-between;
+
+                h4 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
