@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./intro.module.scss";
 import guyimg from "../../img/guy2.png";
-import { CgScrollV } from "react-icons/cg";
+// import { CgScrollV } from "react-icons/cg";
 
 const Intro = () => {
     return (
@@ -33,7 +33,7 @@ const Intro = () => {
                         websites, web services and online stores.
                     </p>
 
-                    <CgScrollV />
+                    {/* <CgScrollV /> */}
                 </div>
             </div>
             <div className={styles.i__right}>
