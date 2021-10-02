@@ -1,0 +1,33 @@
+@import "../../base";
+
+.t {
+    height: 2.5rem;
+    width: 5rem;
+    background-color: white;
+    border: 1px solid #999;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    border-radius: 2rem;
+    z-index: 10;
+    cursor: pointer;
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &__button {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background-color: $color-2;
+        top: 0;
+        left: 2.5rem;
+    }
+}
