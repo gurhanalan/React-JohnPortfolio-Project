@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-JohnPortfolio-Project/static/css/main.626dbbec.chunk.css",
+    "main.js": "/React-JohnPortfolio-Project/static/js/main.028a303f.chunk.js",
+    "main.js.map": "/React-JohnPortfolio-Project/static/js/main.028a303f.chunk.js.map",
+    "runtime-main.js": "/React-JohnPortfolio-Project/static/js/runtime-main.8bc3c7ce.js",
+    "runtime-main.js.map": "/React-JohnPortfolio-Project/static/js/runtime-main.8bc3c7ce.js.map",
+    "static/js/2.feb33b79.chunk.js": "/React-JohnPortfolio-Project/static/js/2.feb33b79.chunk.js",
+    "static/js/2.feb33b79.chunk.js.map": "/React-JohnPortfolio-Project/static/js/2.feb33b79.chunk.js.map",
+    "index.html": "/React-JohnPortfolio-Project/index.html",
+    "static/css/main.626dbbec.chunk.css.map": "/React-JohnPortfolio-Project/static/css/main.626dbbec.chunk.css.map",
+    "static/js/2.feb33b79.chunk.js.LICENSE.txt": "/React-JohnPortfolio-Project/static/js/2.feb33b79.chunk.js.LICENSE.txt",
+    "static/media/address.a01cb8cc.png": "/React-JohnPortfolio-Project/static/media/address.a01cb8cc.png",
+    "static/media/award.a796a64f.png": "/React-JohnPortfolio-Project/static/media/award.a796a64f.png",
+    "static/media/email.a49e0158.png": "/React-JohnPortfolio-Project/static/media/email.a49e0158.png",
+    "static/media/guy2.db73f967.png": "/React-JohnPortfolio-Project/static/media/guy2.db73f967.png",
+    "static/media/moon.3bea3d39.png": "/React-JohnPortfolio-Project/static/media/moon.3bea3d39.png",
+    "static/media/phone.d90a6d23.png": "/React-JohnPortfolio-Project/static/media/phone.d90a6d23.png",
+    "static/media/sun.f794832a.png": "/React-JohnPortfolio-Project/static/media/sun.f794832a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bc3c7ce.js",
+    "static/js/2.feb33b79.chunk.js",
+    "static/css/main.626dbbec.chunk.css",
+    "static/js/main.028a303f.chunk.js"
+  ]
+}
